@@ -38,7 +38,8 @@ void ll_insert(LINKED_LIST* list, NODE_VALUE_PTR el);
 void ll_search(LINKED_LIST* list, void* item);
 void ll_delete(LINKED_LIST* list, NODE* el);
 
+void ll_visit_elements(LINKED_LIST* list, void (*function)(void*) );
+
 NODE_VALUE_PTR alloc_node(int value);
-void print_node(void* element);
 
 #endif
