@@ -18,7 +18,9 @@ LINKED_LIST* ll_init() {
 
 void ll_release(LINKED_LIST* list) { }
 
-void ll_search(LINKED_LIST* list, void* item) { }
+NODE_PTR ll_search(LINKED_LIST* list, void* key) {
+    return NULL;
+}
 
 void ll_delete(LINKED_LIST* list, NODE* el) { }
 

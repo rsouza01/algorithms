@@ -48,6 +48,8 @@ void main() {
 
     ll_visit_elements(list, &print_node);
 
+    NODE_PTR node = ll_search(list, alloc_node_value(7));
+
     //free(list);
 
 }
